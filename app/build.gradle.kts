@@ -17,6 +17,7 @@ android {
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
     }
 
@@ -51,7 +52,9 @@ dependencies {
     implementation(libs.wear.tooling.preview)
     implementation(libs.activity.compose)
     implementation(libs.core.splashscreen)
+    testImplementation("junit:junit:4.13.2")
     androidTestImplementation(platform(libs.compose.bom))
+    androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)

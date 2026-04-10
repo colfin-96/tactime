@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">TacTime</string>
-    <string name="hello_world">Hello, %1$s!</string>
+    <string name="app_title">TacTime</string>
+    <string name="tell_time_prompt">Tap to request the time</string>
+    <string name="tell_time_button">Tell Time</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_about_time">About %1$s</string>
+    <string name="status_haptics_unavailable">About %1$s (no vibration)</string>
 </resources>
